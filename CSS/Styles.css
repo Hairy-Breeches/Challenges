@@ -1,0 +1,133 @@
+/*********************CLASS SELECTORS************************/
+.Annual-Plan {
+  color: hsl(223, 47%, 23%);
+  font-weight: 700;
+  left: 75px;
+  margin: 0;
+  position: absolute;
+  top: 20px;
+}
+
+.Bottom-Buttons {
+  margin-top: 20px;
+}
+
+.Change {
+  color: hsl(245, 75%, 52%);
+  font-size: 1rem;
+  margin: 0;
+  position: absolute;
+  right: 30px;
+  top: 27px;
+  text-decoration: underline;
+}
+
+.Change:hover {
+  color: hsl(224, 23%, 55%);
+  text-decoration: none;
+}
+
+.Cancel-Btn {
+  width: 80%;
+  margin: auto;
+}
+
+.Cancel {
+  color: grey;
+  font-size: 1rem;
+  font-weight: 700;
+}
+
+.Cancel:hover {
+  color: black;
+}
+
+/* .Illustration-Hero {
+  border-top-left-radius: 15px;
+  border-top-right-radius: 15px;
+} */
+
+.Order-Summary-Component {
+  background-color: white;
+  border-radius: 15px;
+  font-size: 11px;
+  overflow: hidden;
+  margin: auto;
+  padding-bottom: 35px;
+  width: 33%;
+}
+
+.Order-Summary {
+  margin: 30px auto 15px;
+  position: relative;
+  width: 60%;
+}
+
+.Payment-Details {
+  background-color: hsl(225, 100%, 98%);
+  border-radius: 10px;
+  height: 75px;
+  margin: 0 auto 20px;
+  position: relative;
+  width: 80%;
+}
+
+.Price {
+  color: hsl(224, 23%, 55%);
+  position: absolute;
+  margin: 0;
+  top: 35.5px;
+  left: 75px;
+}
+
+.Payment-Btn {
+  background-color: hsl(245, 75%, 52%);
+  border-radius: 15px;
+  margin: 0 auto 20px;
+  width: 80%;
+}
+
+.Payment {
+  font-size: 1rem;
+  font-weight: 700;
+  padding: 15px 0;
+}
+
+.Payment:hover {
+  background-color: hsl(224, 23%, 55%);
+  border-radius: 15px;
+}
+
+/**********************TAG SELECTORS*************************/
+a {
+  color: white;
+  display: block;
+  font-weight: 500;
+  text-decoration: none;
+}
+
+body {
+  background-color: hsl(225, 100%, 94%);
+  background-repeat: no-repeat;
+  background-size: 100% 50%;
+  background-image: url("D:/Web Development/Challenges/order-summary-component-main/images/pattern-background-desktop.svg");
+  font-family: 'Red Hat Display', sans-serif;
+  padding-top: 20px;
+  margin: 0;
+  text-align: center;
+}
+
+h1 {
+  font-weight: 900;
+}
+
+p {
+  font-size: 1rem;
+}
+
+/************************ID SELECTORS****************************/
+#Icon-Music {
+  position: absolute;
+  left: 20px;
+  top: 13.5px;
+}
